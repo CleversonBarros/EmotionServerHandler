@@ -13,7 +13,7 @@ public class Main {
         //iterating through the emotions menu 10 times and getting random emotions
         for(int j = 0; j < 20; j++) {
             int index = randomInt.nextInt(7);
-            esh.sendEmotionToServer(emotions[index], 100);
+            esh.sendEmotionToServer(emotions[index], 1);
         }
     }
 
